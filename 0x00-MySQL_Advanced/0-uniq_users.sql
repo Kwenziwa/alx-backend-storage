@@ -1,7 +1,6 @@
-/*
-Author: Kwenziwa Lizwi Khanyile
-Date: CURDATE()
-*/
+
+-- Author: Kwenziwa Lizwi Khanyile
+-- Date: CURDATE()
 -- Script that creates a table users
 CREATE TABLE IF NOT EXISTS users (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,

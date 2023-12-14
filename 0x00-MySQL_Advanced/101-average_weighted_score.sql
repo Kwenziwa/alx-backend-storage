@@ -1,10 +1,10 @@
-/*
-Author: Kwenziwa Lizwi Khanyile
-Date: CURDATE() 
-Taksk: SQL script that creates a stored procedure 
-ComputeAverageWeightedScoreForUsers that computes 
-and store the average weighted score for all users.
-*/
+
+-- Author: Kwenziwa Lizwi Khanyile
+-- Date: CURDATE() 
+-- Taksk: SQL script that creates a stored procedure 
+-- ComputeAverageWeightedScoreForUsers that computes 
+-- and store the average weighted score for all users.
+
 
 DELIMITER $$
 DROP PROCEDURE IF EXISTS ComputeAverageWeightedScoreForUsers;

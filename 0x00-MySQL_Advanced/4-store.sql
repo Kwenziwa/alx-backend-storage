@@ -1,9 +1,9 @@
-/*
-Author: Kwenziwa Lizwi Khanyile
-Date: CURDATE()
-Tasks: Creates a trigger that decreases the 
-quantity of an item after adding a new order
-*/
+
+-- Author: Kwenziwa Lizwi Khanyile
+-- Date: CURDATE()
+-- Tasks: Creates a trigger that decreases the 
+-- quantity of an item after adding a new order
+
 
 CREATE TRIGGER decrement
 AFTER INSERT

@@ -1,10 +1,10 @@
-/*
-Author: Kwenziwa Lizwi Khanyile
-Date: CURDATE()
-Tasks: SQL script that creates a stored procedure 
-ComputeAverageWeightedScoreForUser that computes 
-and store the average weighted score for a student.
-*/
+
+-- Author: Kwenziwa Lizwi Khanyile
+-- Date: CURDATE()
+-- Tasks: SQL script that creates a stored procedure 
+-- ComputeAverageWeightedScoreForUser that computes 
+-- and store the average weighted score for a student.
+
 
 DELIMITER $$
 DROP PROCEDURE IF EXISTS ComputeAverageWeightedScoreForUser;

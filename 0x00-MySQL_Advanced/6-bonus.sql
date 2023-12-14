@@ -1,8 +1,8 @@
-/*
-Author: Kwenziwa Lizwi Khanyile
-Date: CURDATE()
-Task: SQL script that creates a stored 
-procedure AddBonus that adds a new correction for a student. */
+
+-- Author: Kwenziwa Lizwi Khanyile
+-- Date: CURDATE()
+-- Task: SQL script that creates a stored 
+-- procedure AddBonus that adds a new correction for a student. 
 DELIMITER $$
 CREATE PROCEDURE AddBonus(IN user_id INTEGER, IN project_name VARCHAR(255), IN score INTEGER)
 BEGIN
